@@ -1,17 +1,13 @@
 <h1 align="center">Anibal Martinez</h1>
 
-<p align="center"><b>Freight &amp; Logistics Technology · AI-Powered Tooling</b></p>
-
-<p align="center">
-  Building practical software that makes freight pricing and operations faster and smarter.
-</p>
+<p align="center">Freight and logistics, plus the software I build to make that work easier.</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/anibal-martinez-logistics">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://github.com/AnibalMartinez1">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://lanecast.netlify.app">
+    <img src="https://img.shields.io/badge/Lanecast-Live-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Lanecast" />
   </a>
 </p>
 
@@ -19,43 +15,35 @@
 
 ### About
 
-I work at the intersection of **logistics and software** — turning real-world shipping workflows like quoting, rating, and carrier selection into clean, fast, AI-assisted applications. My focus is applying modern language models to practical pricing and operations problems, with an emphasis on tools that are genuinely usable in day-to-day freight work.
+I work in freight. Most of my day is quoting lanes, picking carriers, and figuring out what a load should actually cost. A lot of that work is repetitive and still done by hand, so I started writing software to handle the parts that don't need a person.
 
-- 🚚 **Domain** — freight, logistics, and supply-chain operations
-- 🤖 **Focus** — applying LLMs to real quoting and pricing problems
-- 🛠️ **Approach** — lightweight, production-ready web apps with no unnecessary complexity
-- 📈 **Philosophy** — the model reasons, the code calculates
+I'm interested in using language models where they genuinely help, like reading a messy load tender or a screenshot, while keeping the actual pricing math in plain code that I can check. I like small, simple web apps that people can open and use without any training.
 
-### Tech &amp; Tools
+### What I'm working on
+
+**[Lanecast](https://lanecast.netlify.app)**
+
+A quoting tool for expedited and contract freight. You give it a lane and it returns a price based on current diesel prices, real routed miles, market conditions, and what similar loads have actually booked for.
+
+- Handles expedite and contract lane pricing, with fuel broken out separately on contract
+- Picks the smallest truck that fits the load, from a cargo van up to a 53' reefer
+- Decides solo or team based on the delivery deadline and hours-of-service rules
+- Supports up to five pickups and five drops
+- Fills in the quote form from a screenshot of a load tender
+- Quotes a whole CSV of lanes at once and exports to CSV or Excel
+- Learns from booked loads, so lanes with history get more accurate over time
+
+Built with plain JavaScript and Netlify Functions, no build step.
+
+### Tools I use
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)
-![AI / LLMs](https://img.shields.io/badge/AI_%2F_LLMs-412991?style=flat&logo=openai&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-### Featured Project
+### Get in touch
 
-**[🚚 Freight Pricing Engine](https://github.com/AnibalMartinez1/freight-quote-engine)** &nbsp;·&nbsp; [Live demo →](https://freight-quote-engine.netlify.app)
-
-An expedited &amp; contract freight quoting tool that reads a lane and returns a priced quote grounded in live fuel prices, real routed miles, current market conditions, and the rates loads actually booked for. Includes screenshot-to-form extraction, batch CSV quoting, and self-calibration against booked history. Built with vanilla JS + Netlify Functions — the model reasons, the code calculates every dollar.
-
-### GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AnibalMartinez1&show_icons=true&hide_border=true&count_private=true" height="160" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnibalMartinez1&layout=compact&hide_border=true" height="160" alt="Top languages" />
-</p>
-
-### Let's Connect
-
-I'm always glad to connect with others working on logistics, supply chain, and applied-AI problems.
-
-- 💼 **LinkedIn** — [anibal-martinez-logistics](https://www.linkedin.com/in/anibal-martinez-logistics)
-- 💻 **GitHub** — [@AnibalMartinez1](https://github.com/AnibalMartinez1)
-
----
-
-<p align="center"><i>Open to connecting on freight, logistics &amp; AI projects.</i></p>
+If you work in logistics or supply chain and want to talk shop, or you're building something similar, reach out on [LinkedIn](https://www.linkedin.com/in/anibal-martinez-logistics).
